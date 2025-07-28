@@ -32,7 +32,8 @@
 }
 
 #simple-cookie-banner button {
-  background-color: #4CAF50; /* Зеленая кнопка */
+  /* background-color: #4CAF50; */ /* Старый цвет */
+  background-color: #388E3C; /* Новый, более тёмно-зелёный цвет для лучшего контраста и соответствия WCAG AA */
   border: none;
   color: white;
   padding: 8px 16px;
@@ -46,8 +47,10 @@
 }
 
 #simple-cookie-banner button:hover {
-  background-color: #45a049; /* Более темно-зеленая при наведении */
+  /* background-color: #45a049; */ /* Старый цвет при наведении */
+  background-color: #1B5E20; /* Новый, ещё более тёмный цвет при наведении */
 }
+
 /* Адаптивность */
 @media (min-width: 768px) {
   #simple-cookie-banner {
