@@ -7,9 +7,10 @@
   left: 0;
   width: 100%;
   /* Стили */
-  /* Элегантный темно-серый фон #2f2f31 (WCAG AAA для белого текста 18pt) */
-  background-color: #2f2f31;
-  color: #ffffff; /* Белый текст */
+  /* Основной синий фон #1976D2 (цвет темы сайта) */
+  background-color: #1976D2;
+  /* Белый текст для максимального контраста с синим фоном (WCAG AAA) */
+  color: #ffffff;
   padding: 15px 20px;
   box-sizing: border-box;
   /* Раскладка Flexbox */
@@ -36,18 +37,21 @@
 
 /* Ссылки внутри баннера */
 #simple-cookie-banner a {
-  /* Яркая и контрастная ссылка #64b5f6 (WCAG AA для #2f2f31) */
-  color: #64b5f6;
+  /* Белый цвет для ссылок на синем фоне (WCAG AAA) */
+  color: #ffffff;
+  /* Подчеркивание для четкой идентификации ссылки */
   text-decoration: underline;
+  /* Убираем наследование font-weight, чтобы подчеркивание было видно */
+  font-weight: normal;
 }
 
 /* Кнопка согласия */
 #simple-cookie-banner button {
-  /* Цвет фона кнопки #1976d2 (WCAG AA для белого текста) */
-  background-color: #1976d2;
-  border: none;
-  /* Белый текст */
-  color: #ffffff;
+  /* Белый фон кнопки для контраста с синим фоном баннера */
+  background-color: #ffffff;
+  border: 2px solid #ffffff; /* Граница того же цвета для четкости */
+  /* Темно-синий текст #0d47a1 для хорошего контраста с белым фоном кнопки (WCAG AAA) */
+  color: #0d47a1;
   /* Размеры и отступы */
   padding: 10px 20px; /* Немного увеличены для лучшей кликабельности */
   text-align: center;
@@ -56,12 +60,13 @@
   /* Размер шрифта кнопки */
   font-size: 16px; /* Совпадает с базовым или чуть больше */
   font-family: inherit; /* Наследуем шрифт от родителя */
-  font-weight: 500; /* Полужирный текст кнопки */
+  /* Полужирный текст кнопки для лучшей видимости */
+  font-weight: 600;
   cursor: pointer;
   /* Скругление углов */
   border-radius: 4px;
   /* Анимация при наведении */
-  transition: background-color 0.2s ease, transform 0.1s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   /* Минимальный размер для удобства нажатия (рекомендуется 44px) */
   min-height: 44px;
   min-width: 44px;
@@ -69,27 +74,33 @@
 
 /* Состояние при наведении на кнопку */
 #simple-cookie-banner button:hover {
-  /* Более темный цвет при наведении #1565c0 */
-  background-color: #1565c0;
-  /* Небольшое увеличение при наведении для эффекта */
-  transform: scale(1.02);
+  /* Более светлый фон и граница при наведении #f5f5f5 */
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+  /* Немного более темный синий текст при наведении #0a3d8a */
+  color: #0a3d8a;
+  /* Убираем transform, так как он может конфликтовать с border */
+  /* transform: scale(1.02); */
 }
 
 /* Состояние фокуса (важно для доступности) */
 #simple-cookie-banner button:focus {
-  /* Визуальная обратная связь через тень */
-  box-shadow: 0 0 0 2px #64b5f6, 0 0 5px 3px rgba(100, 181, 246, 0.3);
-  /* Если outline предпочтительнее, можно использовать его */
-  /* outline: 2px solid #64b5f6;
-  outline-offset: 2px; */
+  /* Четкая фокусная рамка */
+  outline: 2px solid #4285f4; /* Ярко-синий цвет для фокуса */
+  outline-offset: 2px;
+  /* box-shadow можно убрать, если outline достаточно */
+  /* box-shadow: 0 0 0 2px #ffffff, 0 0 5px 3px rgba(66, 133, 244, 0.5); */
 }
 
 /* Состояние нажатия на кнопку */
 #simple-cookie-banner button:active {
-  /* Еще более темный цвет при нажатии #0d47a1 */
-  background-color: #0d47a1;
-  /* Убираем увеличение при нажатии */
-  transform: scale(0.98);
+  /* Ещё более светлый фон и граница при нажатии #e0e0e0 */
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
+  /* Ещё более темный синий текст при нажатии #082d64 */
+  color: #082d64;
+  /* Убираем transform */
+  /* transform: scale(0.98); */
 }
 
 /* Адаптивность для больших экранов */
