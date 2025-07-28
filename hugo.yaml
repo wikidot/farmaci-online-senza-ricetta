@@ -1,0 +1,166 @@
+# Указываем базовый URL без лишних пробелов
+baseURL: "https://farmaci-online-italia.pages.dev/"
+title: "Farmacie Online in Italia"
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+permalinks:
+  posts: /:slug/
+
+# Добавляем параметры языка
+languageCode: it-IT # Код языка для итальянского
+defaultContentLanguage: it # Язык по умолчанию - итальянский
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Google Analytics ID (замените на свой)
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "Descrizione del sito ExampleSite" # Переведено
+  keywords: [Blog, Portfolio, PaperMod] # Можно перевести или адаптировать
+  author: Me # Ваше имя
+  # author: ["Io", "Tu"] # несколько авторов, переведено
+  # images: ["<link or path of image for opengraph, twitter-cards>"] # Замените <...> на реальный путь, например, "/images/og-image.jpg" или удалите если не используется
+  # Устанавливаем формат даты для Италии (день, месяц, год)
+  DateFormat: "02/01/2006" # Или "02/01/2006" для числового формата
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowFullTextInRSS: true
+  enableSEO: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # Замените <...> на реальные пути или удалите если не используется
+    # favicon: "/images/favicon.ico" 
+    # favicon16x16: "/images/favicon-16x16.png"
+    # favicon32x32: "/images/favicon-32x32.png"
+    # apple_touch_icon: "/images/apple-touch-icon.png"
+    # safari_pinned_tab: "/images/safari-pinned-tab.svg"
+
+  label:
+    text: "Home" # Можно оставить или перевести как "Pagina principale"
+    # Убедитесь, что файл иконки существует в static/
+    icon: /apple-touch-icon.png 
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "Questo è un sottotitolo" # Переведено
+    # Замените <...> на реальный путь или удалите если не используется
+    # imageUrl: "/images/profile.jpg" 
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: La mia immagine # Переведено
+    buttons:
+      - name: Articoli # Можно перевести как "Articoli"
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Ciao! 👋" # Адаптировано
+    Content: Benvenuto nel mio blog # Переведено
+
+  socialIcons:
+    # Убраны лишние пробелы в URL
+    - name: x # Или twitter
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/"
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    # google:
+      SiteVerificationTag: "XYZabc" # Замените на свой тег
+    # bing:
+      SiteVerificationTag: "XYZabc" # Замените на свой тег
+    # yandex:
+      SiteVerificationTag: "XYZabc" # Замените на свой тег
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+    # Убраны лишние пробелы и <...>
+    URL: "https://github.com/yourusername/your-repo-name/content" # Замените на реальный путь
+    # Text: "Suggerisci Modifiche" # Переведено
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+# Меню
+menu:
+  main:
+    - identifier: "posts"
+      name: "Articoli"
+      url: "/posts/"
+      weight: 10
+    - identifier: tags
+      name: Tags # Можно оставить как есть
+      url: /tags/
+      weight: 20
+    - identifier: "search"
+      name: "Cerca"
+      url: "/search/"
+      weight: 40
+
+# Настройки вывода
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+# Подсветка синтаксиса
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+

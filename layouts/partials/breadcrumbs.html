@@ -1,0 +1,14 @@
+<!-- layouts/partials/breadcrumbs.html -->
+{{- if (.Param "ShowBreadCrumbs") -}}
+<div class="breadcrumbs">
+    <!-- Всегда показываем ссылку на главную -->
+    <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Home" }}</a>
+
+    <!-- Если это не главная страница, показываем название текущей страницы -->
+    {{- if not .IsHome }}
+        {{- print "&nbsp;»&nbsp;" | safeHTML -}}
+        <!-- Отображаем заголовок (.Title) или имя (.Name) страницы -->
+        {{- .Title | default .Name | safeHTML -}}
+    {{- end }}
+</div>
+{{- end -}}
