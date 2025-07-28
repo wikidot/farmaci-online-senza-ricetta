@@ -1,62 +1,110 @@
 /* static/css/simple-cookie-banner.css */
+/* Баннер cookie consent */
 #simple-cookie-banner {
+  /* Позиционирование */
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #333; /* Темный фон для контраста */
-  color: #fff; /* Белый текст */
+  /* Стили */
+  /* Новый, более контрастный темный фон #212121 (WCAG AAA для белого текста 18pt) */
+  background-color: #212121;
+  color: #ffffff; /* Белый текст */
   padding: 15px 20px;
   box-sizing: border-box;
+  /* Раскладка Flexbox */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 12px; /* Увеличенный отступ между текстом и кнопкой */
+  /* Другое */
   z-index: 10000; /* Высокий z-index */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Более современный системный шрифт */
+  font-size: 16px; /* Немного увеличенный базовый размер шрифта для лучшей читаемости */
   text-align: center;
   /* Анимация появления */
   transform: translateY(100%);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Более плавная анимация */
 }
 
+/* Класс для показа баннера */
 #simple-cookie-banner.show {
   transform: translateY(0);
 }
 
+/* Ссылки внутри баннера */
 #simple-cookie-banner a {
-  color: #4da6ff; /* Светло-голубая ссылка */
+  /* Более яркая и контрастная ссылка #64b5f6 (WCAG AA для #212121) */
+  color: #64b5f6;
   text-decoration: underline;
-  margin: 0 5px;
+  /* Убираем жесткие отступы, используем gap в родителе */
+  /* margin: 0 5px; */
 }
 
+/* Кнопка согласия */
 #simple-cookie-banner button {
-  /* background-color: #4CAF50; */ /* Старый цвет */
-  background-color: #388E3C; /* Новый, более тёмно-зелёный цвет для лучшего контраста и соответствия WCAG AA */
+  /* Новый цвет фона кнопки #1976d2 (WCAG AA для белого текста) */
+  background-color: #1976d2;
   border: none;
-  color: white;
-  padding: 8px 16px;
+  /* Белый текст */
+  color: #ffffff;
+  /* Размеры и отступы */
+  padding: 10px 20px; /* Немного увеличены для лучшей кликабельности */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  /* Размер шрифта кнопки */
+  font-size: 16px; /* Совпадает с базовым или чуть больше */
+  font-family: inherit; /* Наследуем шрифт от родителя */
+  font-weight: 500; /* Полужирный текст кнопки */
   cursor: pointer;
+  /* Скругление углов */
   border-radius: 4px;
-  transition: background-color 0.2s ease;
+  /* Анимация при наведении */
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  /* Минимальный размер для удобства нажатия (рекомендуется 44px) */
+  min-height: 44px;
+  min-width: 44px;
+  /* Убираем стандартный внешний вид фокуса, если нужно кастомное */
+  /* outline: none; */
 }
 
+/* Состояние при наведении на кнопку */
 #simple-cookie-banner button:hover {
-  /* background-color: #45a049; */ /* Старый цвет при наведении */
-  background-color: #1B5E20; /* Новый, ещё более тёмный цвет при наведении */
+  /* Более темный цвет при наведении #1565c0 */
+  background-color: #1565c0;
+  /* Небольшое увеличение при наведении для эффекта */
+  transform: scale(1.02);
 }
 
-/* Адаптивность */
+/* Состояние фокуса (важно для доступности) */
+#simple-cookie-banner button:focus {
+  /* Можно добавить визуальную обратную связь, если outline убран */
+  /* outline: 2px solid #64b5f6; */
+  /* outline-offset: 2px; */
+  /* Или просто усилить тень */
+  box-shadow: 0 0 0 2px #64b5f6;
+}
+
+/* Состояние нажатия на кнопку */
+#simple-cookie-banner button:active {
+  /* Еще более темный цвет при нажатии #0d47a1 */
+  background-color: #0d47a1;
+  /* Убираем увеличение при нажатии */
+  transform: scale(0.98);
+}
+
+/* Адаптивность для больших экранов */
 @media (min-width: 768px) {
   #simple-cookie-banner {
+    /* Горизонтальная раскладка на больших экранах */
     flex-direction: row;
     justify-content: space-between;
+    /* Выравнивание текста влево */
     text-align: left;
+    /* Увеличиваем внутренние отступы */
     padding: 15px 40px;
+    /* Уменьшаем отступ между элементами */
+    gap: 20px;
   }
 }
