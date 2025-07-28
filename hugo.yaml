@@ -67,8 +67,8 @@ params:
   label:
     text: "Home" # Можно оставить или перевести как "Pagina principale"
     # Убедитесь, что файл иконки существует в static/
-    icon: /apple-touch-icon.png 
-    iconHeight: 35
+    # icon: /apple-touch-icon.png 
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
