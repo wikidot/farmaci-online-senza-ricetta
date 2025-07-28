@@ -2,17 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Farmacie Online in Italia</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:57844/</link>
     <description>Recent content on Farmacie Online in Italia</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>it-IT</language>
-    <lastBuildDate>Tue, 22 Jul 2025 15:30:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:57844/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Informativa sulla Privacy</title>
+      <link>http://localhost:57844/privacy-policy/</link>
+      <pubDate>Mon, 28 Jul 2025 10:00:00 +0200</pubDate>
+      <guid>http://localhost:57844/privacy-policy/</guid>
+      <description>&lt;h1 id=&#34;informativa-sulla-privacy&#34;&gt;Informativa sulla Privacy&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Questa informativa è valida a partire dal Luglio 2025.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-tipologie-di-dati-raccolti&#34;&gt;1. Tipologie di Dati Raccolti&lt;/h2&gt;
+&lt;h3 id=&#34;dati-di-utilizzo&#34;&gt;Dati di utilizzo&lt;/h3&gt;
+&lt;p&gt;I dati di utilizzo vengono raccolti automaticamente e possono includere informazioni come l&amp;rsquo;indirizzo IP del tuo dispositivo, il tipo di browser, la versione del browser, le pagine del nostro sito che visiti, l&amp;rsquo;ora e la data della tua visita, il tempo trascorso su tali pagine e altri dati diagnostici.&lt;/p&gt;
+&lt;h3 id=&#34;cookie-e-tecnologie-di-tracciamento&#34;&gt;Cookie e tecnologie di Tracciamento&lt;/h3&gt;
+&lt;p&gt;Il sito utilizza cookie e tecnologie di tracciamento simili per migliorare l&amp;rsquo;esperienza di navigazione e raccogliere informazioni sulle attività dell&amp;rsquo;Utente. I cookie sono file di piccole dimensioni che vengono memorizzati sul tuo dispositivo.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="informativa-sulla-privacy">Informativa sulla Privacy</h1>
+<p><em>Questa informativa è valida a partire dal Luglio 2025.</em></p>
+<h2 id="1-tipologie-di-dati-raccolti">1. Tipologie di Dati Raccolti</h2>
+<h3 id="dati-di-utilizzo">Dati di utilizzo</h3>
+<p>I dati di utilizzo vengono raccolti automaticamente e possono includere informazioni come l&rsquo;indirizzo IP del tuo dispositivo, il tipo di browser, la versione del browser, le pagine del nostro sito che visiti, l&rsquo;ora e la data della tua visita, il tempo trascorso su tali pagine e altri dati diagnostici.</p>
+<h3 id="cookie-e-tecnologie-di-tracciamento">Cookie e tecnologie di Tracciamento</h3>
+<p>Il sito utilizza cookie e tecnologie di tracciamento simili per migliorare l&rsquo;esperienza di navigazione e raccogliere informazioni sulle attività dell&rsquo;Utente. I cookie sono file di piccole dimensioni che vengono memorizzati sul tuo dispositivo.</p>
+<p><strong>Cookie utilizzati:</strong></p>
+<ul>
+<li><strong>Cookie tecnici/necessari</strong>: Questi cookie sono essenziali per il corretto funzionamento del sito. Consentono funzionalità di base come la navigazione delle pagine e l&rsquo;accesso ad aree sicure del sito. Il sito non può essere utilizzato correttamente senza questi cookie.</li>
+<li><strong>Cookie di performance</strong>: Questi cookie aiutano a comprendere come i visitatori interagiscono con le pagine del sito raccogliendo e trasmettendo informazioni in forma anonima. Vengono utilizzati, ad esempio, da Google Analytics.</li>
+</ul>
+<p>Puoi controllare e/o revocare il consenso per i cookie in qualsiasi momento. Per ulteriori informazioni consulta la nostra <a href="#">Cookie Policy</a> o il banner cookie sul sito.</p>
+<h2 id="2-finalità-del-trattamento-dei-dati">2. Finalità del Trattamento dei Dati</h2>
+<p>Utilizziamo i Dati Personali per le seguenti finalità:</p>
+<ul>
+<li>Fornire e mantenere il nostro servizio.</li>
+<li>Notificare aggiornamenti e modifiche al sito.</li>
+<li>Consentire la partecipazione a funzionalità interattive del nostro servizio, quando l&rsquo;Utente lo desidera.</li>
+<li>Fornire analisi o informazioni utili per migliorare il sito.</li>
+<li>Monitorare l&rsquo;utilizzo del sito.</li>
+<li>Rilevare, prevenire e affrontare problemi tecnici.</li>
+</ul>
+<h2 id="3-modalità-di-trattamento">3. Modalità di Trattamento</h2>
+<p>Il trattamento dei dati avviene mediante strumenti informatici e telematici, con modalità organizzative e con logiche strettamente correlate alle finalità indicate. Oltre al Titolare, in alcuni casi, potrebbero avere accesso ai Dati categorie di incaricati coinvolti nell’organizzazione del sito (personale amministrativo, commerciale, marketing, legali, amministratori di sistema) ovvero soggetti esterni (come fornitori di servizi tecnici terzi, corrieri postali, hosting provider, società informatiche, agenzie di comunicazione) nominati anche, se necessario, Responsabili del Trattamento da parte del Titolare.</p>
+<h2 id="4-trasferimento-dei-dati">4. Trasferimento dei Dati</h2>
+<p>Le informazioni raccolte potrebbero essere trasferite e mantenute su computer situati al di fuori del tuo stato, provincia, nazione o altra giurisdizione governativa dove le leggi sulla protezione dei dati potrebbero essere diverse da quelle della tua giurisdizione.</p>
+<p>Il tuo consenso a questa informativa seguito dall&rsquo;invio di tali informazioni rappresenta il tuo consenso al trasferimento.</p>
+<h2 id="5-conservazione-dei-dati">5. Conservazione dei Dati</h2>
+<p>Conserviamo i tuoi dati per il tempo necessario a fornire il servizio richiesto. Conserviamo e utilizziamo i tuoi dati nella misura strettamente necessaria per adempiere agli obblighi legali (ad esempio, se siamo tenuti a conservare i tuoi dati per adempiere agli obblighi di legge applicabili).</p>
+<h2 id="6-sicurezza-dei-dati">6. Sicurezza dei Dati</h2>
+<p>La sicurezza dei tuoi dati è importante per noi, ma ricorda che nessun metodo di trasmissione su Internet o metodo di archiviazione elettronica è sicuro al 100%. Pertanto, nonostante i nostri sforzi commercialmente accettabili per proteggere i tuoi Dati Personali, non possiamo garantirne la sicurezza assoluta.</p>
+<h2 id="7-diritti-dellutente">7. Diritti dell&rsquo;Utente</h2>
+<p>Ai sensi del Regolamento Generale sulla Protezione dei Dati (GDPR), hai il diritto di:</p>
+<ul>
+<li><strong>Diritto di accesso</strong>: Ottenere conferma dell&rsquo;esistenza o meno di Dati Personali che ti riguardano e di ottenerne la comunicazione in forma intelligibile.</li>
+<li><strong>Diritto di rettifica</strong>: Ottenere l&rsquo;aggiornamento, la rettifica o l&rsquo;integrazione dei Dati.</li>
+<li><strong>Diritto alla cancellazione</strong>: Ottenere la cancellazione dei Dati Personali.</li>
+<li><strong>Diritto di limitare il trattamento</strong>: Ottenere la limitazione del trattamento.</li>
+<li><strong>Diritto alla portabilità dei dati</strong>: Ricevere in un formato strutturato, di uso comune e leggibile da dispositivo automatico i Dati Personali che ci hai fornito e di trasmetterli a un altro titolare del trattamento.</li>
+<li><strong>Diritto di opposizione</strong>: Opporsi in qualsiasi momento, per motivi connessi alla tua situazione particolare, al trattamento dei Dati Personali che ti riguardano.</li>
+</ul>
+<p>Per esercitare questi diritti, puoi contattarci agli indirizzi indicati nel paragrafo &ldquo;Informazioni di Contatto&rdquo;.</p>
+<h2 id="8-modifiche-alla-presente-informativa-sulla-privacy">8. Modifiche alla presente Informativa sulla Privacy</h2>
+<p>Ci riserviamo il diritto di apportare modifiche a questa Informativa sulla Privacy in qualsiasi momento notificandolo agli Utenti su questa pagina e, possibilmente, all&rsquo;interno del Servizio e/o mediante un avviso ben visibile sul nostro sito. Si consiglia vivamente di controllare questa pagina periodicamente per eventuali modifiche. Le modifiche apportate a questa Informativa sulla Privacy sono efficaci dal momento della loro pubblicazione su questa pagina.</p>
+<h2 id="9-informazioni-di-contatto">9. Informazioni di Contatto</h2>
+<p>Se hai domande su questa Informativa sulla Privacy, puoi contattarci:</p>
+<ul>
+<li><strong>Email</strong>: <a href="mailto:info@farmaci-online-italia.pages.dev">info@farmaci-online-italia.pages.dev</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>Farmaci Senza Ricetta Online in Italia 2025: Tutto Quello che Devi Sapere (Prima di Cliccare ‘Acquista’)</title>
-      <link>http://localhost:1313/farmaci-senza-ricetta-online-in-italia-2025-tutto-quello-che-devi-sapere-prima-di-cliccare-acquista/</link>
+      <link>http://localhost:57844/farmaci-senza-ricetta-online-in-italia-2025-tutto-quello-che-devi-sapere-prima-di-cliccare-acquista/</link>
       <pubDate>Tue, 22 Jul 2025 15:30:00 +0200</pubDate>
-      <guid>http://localhost:1313/farmaci-senza-ricetta-online-in-italia-2025-tutto-quello-che-devi-sapere-prima-di-cliccare-acquista/</guid>
+      <guid>http://localhost:57844/farmaci-senza-ricetta-online-in-italia-2025-tutto-quello-che-devi-sapere-prima-di-cliccare-acquista/</guid>
       <description>Scopri come acquistare farmaci online in Italia nel 2025 in sicurezza. Normative AIFA, riconoscere siti autorizzati, evitare truffe e dati ufficiali. Crescita del mercato a 3,1 miliardi di euro.</description>
       <content:encoded><![CDATA[<h2 id="1-introduzione-la-rivoluzione-e-le-trappole-della-farmacia-digitale">1. Introduzione: La Rivoluzione (e le Trappole) della Farmacia Digitale</h2>
 <p>Sapete che nel 2025 in Italia il mercato dei  farmaci senza ricetta online vale più del budget annuale della sanità campana? Parliamo di <strong>3,1 miliardi di euro</strong>, tanto che tra droni che sfrecciano verso Milano e chatbot che diagnosticano  il mal di gola alle 3 di notte, l’acquisto di un semplice antinfiammatorio è diventato un’avventura da film di fantascienza. Ma c’è un problema: secondo i dati AIFA, 1 sito su 5 è una vera slot machine della salute – a ogni click, giochi alla roulette russa con il tuo fegato (<a href="https://www.sanita33.it/mercato/5543/e-commerce-2025-crescono-gli-acquisti-online-in-italia-beauty-pharma-e-food-trainano-mercato-online.html">https://www.sanita33.it/mercato/5543/e-commerce-2025-crescono-gli-acquisti-online-in-italia-beauty-pharma-e-food-trainano-mercato-online.html</a>) (<a href="https://farmaciavirtuale.it/vendita-online-di-farmaci-in-italia-i-dati-del-secondo-trimestre-2025/)">https://farmaciavirtuale.it/vendita-online-di-farmaci-in-italia-i-dati-del-secondo-trimestre-2025/)</a>.</p>
