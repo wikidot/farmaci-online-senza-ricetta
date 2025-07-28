@@ -1,5 +1,5 @@
 # Указываем базовый URL без лишних пробелов
-baseURL: "https://farmaci-online-italia.pages.dev/"
+baseURL: "https://farmaci-online-senza-ricetta.pages.dev/"
 title: "Farmacie Online in Italia"
 pagination:
   pagerSize: 5
