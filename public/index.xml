@@ -78,9 +78,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/farmaci/</guid>
       <description>&lt;h1 id=&#34;post&#34;&gt;post&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;kamagra&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/camagra.png&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img alt=&#34;kamagra&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/kamagra.png&#34;&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="post">post</h1>
-<p><img alt="kamagra" loading="lazy" src="/images/camagra.png"></p>
+<p><img alt="kamagra" loading="lazy" src="/images/kamagra.png"></p>
 ]]></content:encoded>
     </item>
   </channel>

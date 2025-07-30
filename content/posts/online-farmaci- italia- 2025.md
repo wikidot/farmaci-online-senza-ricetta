@@ -7,5 +7,5 @@ title: "Farmaci "
 
 # post
 
-![kamagra](/images/camagra.png)
+![kamagra](/images/kamagra.png)
 
